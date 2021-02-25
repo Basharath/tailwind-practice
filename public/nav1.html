@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="p-3 bg-blue-400 text-gray-800 h-16">
+      <div
+        class="container justify-between align-middle mx-auto max-w-5xl px-2 md:flex"
+      >
+        <div class="flex justify-between">
+          <a href="#"
+            ><img src="../images/icon.png" alt="nav brand" class="w-12 h-12"
+          /></a>
+          <div class="md:hidden text-3xl"><i class="fas fa-bars"></i></div>
+        </div>
+        <ul class="items-stretch space-x-4 text-lg hidden md:flex">
+          <li class="p-2 mx-2 hover:text-white"><a href="#">Home</a></li>
+          <li class="p-2 mx-2 hover:text-white"><a href="#">About</a></li>
+          <li class="p-2 mx-2 hover:text-white"><a href="#">Services</a></li>
+          <li class="p-2 mx-2 hover:text-white"><a href="#">Portfolio</a></li>
+        </ul>
+      </div>
+    </header>
+  </body>
+</html>
